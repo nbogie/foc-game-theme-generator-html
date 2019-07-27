@@ -18,8 +18,6 @@ function makeRandomPhrase() {
   };
 }
 
-const allWords = WORDLIST;
-
 class Cycle {
   constructor(vals) {
     this.vals = vals;
@@ -49,15 +47,6 @@ const fontsCycle = new Cycle([
   "Cabin Sketch",
   "Ranchers"
 ]);
-
-const wordsWithNoSpace = allWords.filter(w => !w.includes(" "));
-const longWordsNoSpace = wordsWithNoSpace
-  .sort((a, b) => b.length - a.length)
-  .slice(0, 10);
-const longWordsWithSpace = allWords
-  .filter(w => w.includes(" "))
-  .sort((a, b) => b.length - a.length)
-  .slice(0, 10);
 
 function pick(arr) {
   const ix = Math.floor(Math.random() * arr.length);
@@ -126,6 +115,7 @@ function handleKeypress(e) {
       showRandomPhrase();
       break;
     default:
+      randomiseFont();
       showRandomPhrase();
   }
 }
@@ -140,7 +130,7 @@ window.onload = function() {
   allElems = [elemNoun1, elemNoun2, elemAdj1, elemAdj2, elemVs];
   cycleFont();
   cycleBackgroundColor();
-  //toggleTextRotation();
+  cycleBackgroundColor();
 
   showRandomPhrase();
 };
