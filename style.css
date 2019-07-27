@@ -1,0 +1,27 @@
+body {
+  font-family: "Barrio", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.nounphrase {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bigtext {
+  text-align: center;
+  padding: 5px 30px;
+  font-size: 96pt;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}

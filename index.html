@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Word Generator | IOI</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Barrio|Cabin+Sketch|Cinzel+Decorative|Codystar|Concert+One|Londrina+Sketch|Ranchers|Ribeye|Sacramento|Sedgwick+Ave|Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet">
+    -->
+    <link rel="stylesheet" href="font-styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="jackpot.css" />
+    <script src="libs/underscore-min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nounphrase">
+        <div id="adj1" class="bigtext" onClick="handleClick(adj1, adjectives)">
+          adj1
+        </div>
+        <div id="noun1" class="bigtext" onClick="handleClick(noun1, nouns)">
+          noun1
+        </div>
+      </div>
+
+      <div id="vs" class="bigtext">vs</div>
+      <div class="nounphrase">
+        <div id="adj2" class="bigtext" onClick="handleClick(adj2, adjectives)">
+          adj2
+        </div>
+        <div id="noun2" class="bigtext" onClick="handleClick(noun2, nouns)">
+          noun2
+        </div>
+      </div>
+    </div>
+
+    <script src="js/wordList.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

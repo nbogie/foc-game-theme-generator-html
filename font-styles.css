@@ -1,0 +1,65 @@
+/* allerta-stencil-regular - latin */
+@font-face {
+  font-family: "Allerta Stencil";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Allerta Stencil Regular"), local("AllertaStencil-Regular"),
+    url("./fonts/allerta-stencil-v10-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/allerta-stencil-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* concert-one-regular - latin */
+@font-face {
+  font-family: "Concert One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Concert One"), local("ConcertOne-Regular"),
+    url("./fonts/concert-one-v10-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/concert-one-v10-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barrio-regular - latin */
+@font-face {
+  font-family: "Barrio";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Barrio Regular"), local("Barrio-Regular"),
+    url("./fonts/barrio-v4-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/barrio-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* londrina-sketch-regular - latin */
+@font-face {
+  font-family: "Londrina Sketch";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Londrina Sketch Regular"), local("LondrinaSketch-Regular"),
+    url("./fonts/londrina-sketch-v8-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/londrina-sketch-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cabin-sketch-700 - latin */
+@font-face {
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cabin Sketch Bold"), local("CabinSketch-Bold"),
+    url("./fonts/cabin-sketch-v13-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/cabin-sketch-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ranchers-regular - latin */
+@font-face {
+  font-family: "Ranchers";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ranchers"), local("Ranchers-Regular"),
+    url("./fonts/ranchers-v7-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/ranchers-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
