@@ -24,9 +24,9 @@ class Cycle {
     this.ix = 0;
   }
 
-  current = () => this.vals[this.ix];
+  current() { return this.vals[this.ix]; }
 
-  next = () => {
+  next(){
     this.ix++;
     if (this.ix >= this.vals.length) {
       this.ix = 0;
@@ -34,7 +34,7 @@ class Cycle {
     return this.vals[this.ix];
   };
 
-  random = () => pick(this.vals);
+  random() { return pick(this.vals); }
 }
 
 const bgColorsCycle = new Cycle([{ value: "black" }, { value: "white" }]);
