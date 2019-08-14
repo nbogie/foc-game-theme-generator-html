@@ -40,6 +40,7 @@ dancers
 dentists
 designers
 detectives
+diggers
 divers
 doctors
 dogs

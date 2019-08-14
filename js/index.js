@@ -24,17 +24,21 @@ class Cycle {
     this.ix = 0;
   }
 
-  current() { return this.vals[this.ix]; }
+  current() {
+    return this.vals[this.ix];
+  }
 
-  next(){
+  next() {
     this.ix++;
     if (this.ix >= this.vals.length) {
       this.ix = 0;
     }
     return this.vals[this.ix];
-  };
+  }
 
-  random() { return pick(this.vals); }
+  random() {
+    return pick(this.vals);
+  }
 }
 
 const bgColorsCycle = new Cycle([{ value: "black" }, { value: "white" }]);
@@ -65,9 +69,15 @@ function rotateElem(elem) {
   const angle = Math.random() * 10 - 5;
   elem.style.transform = `rotate(${angle}deg)`;
 }
+function handleContainerClick() {
+  randomiseFont();
+  showRandomPhrase();
+}
+
 function handleClick(elem, list) {
   elem.innerText = pick(list);
   colorElemRandomly(elem);
+  event.stopPropagation();
 }
 function setPhraseIntoElements(data) {
   allElems.map(colorElemRandomly);
