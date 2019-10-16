@@ -1,15 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Barrio", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
+
 .nounphrase {
   display: flex;
   flex-direction: row;
